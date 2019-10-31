@@ -3,7 +3,7 @@
 Using Blood Bowl to teach myself reinforcement learning. See http://cswiercz.info.
 
 ```bash
-$ docker -b . -t bbb:latest
+$ docker build . -t bbb:latest
 $ docker run -it bbb --training_episodes 10 --evaluation_episodes 1
 ```
 
